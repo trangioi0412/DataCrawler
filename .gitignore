@@ -1,0 +1,18 @@
+# Python (backend/)
+backend/.venv/
+backend/data/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/.env
+backend/credentials/
+
+# Node/Next.js (frontend/) has its own .gitignore; this is a backstop for tools
+# run from the repo root.
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# OS/editor
+.DS_Store
+Thumbs.db
